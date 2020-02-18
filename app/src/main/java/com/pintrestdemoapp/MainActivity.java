@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
             public void onFailure(PDKException exception) {
                 Log.e(getClass().getName(), exception.getDetailMessage());
             }
+
+
         });
     }
 
